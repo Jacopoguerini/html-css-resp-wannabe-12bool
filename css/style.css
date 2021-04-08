@@ -44,7 +44,43 @@
 }
 
 /* MD */
+@media screen and (min-width: 768px) and (max-width:991px) {  
+    img {
+        height: 150px;
+        margin-top: 10px;
+    }
 
+    section:first-of-type {
+        padding-top: 40px;
+    }
+
+    [class*=col-] {
+        padding: 0 30px 10px 30px;
+    }
+
+    [class*=col-] h1 {
+        font-size: 36px;
+        padding-top: 10px;
+    }
+
+    [class*=col-] h3 {
+        margin-top: 10px;
+        font-size: 24px;
+    }
+
+    [class*=col-] p {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .img-blue {
+        margin-top: 20px;
+    }
+
+    .orange-back {
+        background-color: #f2f2cd;
+    }
+}
 
 /* XS */
 @media screen and (max-width: 767px) {  
